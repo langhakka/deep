@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-'eyJhIjoiYjllZmFhZDk2NmQyOTUwMDk5YzVjYjcyOTk5NGRkOWYiLCJ0IjoiODlhYWY5YzgtMTdlZS00ZWI4LTkzNTUtYzUxNGY0NDJmZDEwIiwicyI6IlltRXdOekUzWmpBdFlUSTNZUzAwTXpObExXSTNNMlV0TVRjd1lUaGtPVFE1WTJReSJ9'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
-export DOM=${DOM:-'deepnote.adg007.kdns.fr'} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiYjllZmFhZDk2NmQyOTUwMDk5YzVjYjcyOTk5NGRkOWYiLCJ0IjoiMzI0Njg3OGEtMWNkMS00ZGMxLTg2MDctMDExNDBlOWVkMTA4IiwicyI6Ik16Vm1PVGM0WVdVdFpHUXlaaTAwWm1GbUxXSm1NVGN0WmpsalpqZ3pOR0poWkdFdyJ9'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
+export DOM=${DOM:-'note.adg007.kdns.fr'} # 隧道域名
 
 # 哪吒相关设置
 export NSERVER=${NSERVER:-''}
@@ -12,9 +12,9 @@ export NTLS=${NTLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export XIEYI=${XIEYI:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
-export UUID="9afd1229-b893-40c1-84dd-51e7ce204913"  # 默认随机，去掉#可设置固定UUID
+export UUID="adf2de35-a2c7-4d05-886e-f564ce4d0f90"  # 默认随机，去掉#可设置固定UUID
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用设置，会自动识别)
-export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
+export CF_IP=${CF_IP:-'www.shopify.com'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export JAR_SH='tail -f /dev/null'
 
