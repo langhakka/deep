@@ -12,7 +12,7 @@ export NTLS=${NTLS:-'1'}  # 1启用tls,0关闭tls
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export XIEYI=${XIEYI:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic，sock,3x
-#export UUID="9afd1229-b893-40c1-84dd-51e7ce204913"  # 默认随机，去掉#可设置固定UUID
+export UUID="9afd1229-b893-40c1-84dd-51e7ce204913"  # 默认随机，去掉#可设置固定UUID
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口 (token隧道设置，json不用设置，会自动识别)
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
