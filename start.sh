@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-'eyJhIjoiYjllZmFhZDk2NmQyOTUwMDk5YzVjYjcyOTk5NGRkOWYiLCJ0IjoiNWY3YmI5ZDctOTY0MC00ZDhkLWExMzUtM2JhMjU2NmViYTVkIiwicyI6Ik56RXdNR1ZpWkRFdE5XTTJOaTAwWVdabExXRTRPRGd0T1RZMU5UWmlZemxoWkdKbCJ9'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
-export DOM=${DOM:-'deep.adg007.kdns.fr'} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiYjllZmFhZDk2NmQyOTUwMDk5YzVjYjcyOTk5NGRkOWYiLCJ0IjoiODlhYWY5YzgtMTdlZS00ZWI4LTkzNTUtYzUxNGY0NDJmZDEwIiwicyI6IlltRXdOekUzWmpBdFlUSTNZUzAwTXpObExXSTNNMlV0TVRjd1lUaGtPVFE1WTJReSJ9'}  # token或json,可以直接复制全部，建议使用json，可以免设置端口
+export DOM=${DOM:-'deepnote.adg007.kdns.fr'} # 隧道域名
 
 # 哪吒相关设置
 export NSERVER=${NSERVER:-''}
